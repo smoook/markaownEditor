@@ -1,0 +1,45 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+.header-wrapper {
+    display: block;
+    margin: 0 auto;
+    padding-left: 10%; 
+    height: 60px;
+    line-height: 60px;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 0 12px 2px rgba(0,0,0,.1);
+    font-size: 20px;
+    font-family: Open Sans;
+}
+.markdown {
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    height: 800px;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+}
+
+.markdown .editor{
+    flex: 1;
+    padding: 15px;
+}
+.markdown .editor textarea{
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    resize: none;
+    font-family: Open Sans;
+    font-size: 14px;
+    padding: 0px;
+    border: none;
+    border-right: 1px solid #d1d5da;
+    background: #fafbfc;
+}
+.markdown .parser{
+    flex: 1;
+}
